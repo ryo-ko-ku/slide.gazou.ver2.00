@@ -5,9 +5,9 @@ $(function () {
     function noneBtn() {
         let slideIndex = $(".slide").index($(".active"))
         $(".change-btn").show();
-        if (slideIndex == $(".slide").length-1) {
+        if (slideIndex == 0) {
             $(".prev-btn").hide();
-        } else if (slideIndex == 3) {
+        } else if (slideIndex == $(".slide").length -1) {
             $(".next-btn").hide();
         }
 
