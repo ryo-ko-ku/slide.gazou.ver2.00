@@ -7,7 +7,7 @@ $(function () {
         $(".change-btn").show();
         if (slideIndex == 0) {
             $(".prev-btn").hide();
-        } else if (slideIndex == $(".slide").length -1) {
+        } else if (slideIndex == 3) {
             $(".next-btn").hide();
         }
 
